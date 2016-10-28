@@ -8,5 +8,6 @@
 		<name>Prueba 1</name>
 	<description>Prueba</description>
 	
-	<plugin id="cordova-plugin-geolocation" spec="2.4.0" />
+	<preference name="phonegap-version" value="3.7.0" />
+	<gap:plugin name="cordova-plugin-geolocation" />
 </widget>
