@@ -3,7 +3,7 @@ var fn = {
 		document.addEventListener("deviceready",fn.init,false);
 	},
 	init: function(){
-		//alert("HOLA");
+		alert("HOLA");
 		navigator.geolocation.getCurrentPosition(fn.onSuccess,fn.onError);
 	},
 	onSuccess: function(p){
